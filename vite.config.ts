@@ -10,7 +10,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  base: '/swiss-ski-map/',
+  base: '/swiss-ski-map',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
