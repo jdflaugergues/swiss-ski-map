@@ -10,6 +10,7 @@ const csvPath = path.join(__dirname, "input.csv")
 
 const translations = {
   fr: {
+    name: "La carte interactive des stations de ski en Suisse",
     infos: "INFOS",
     altitudes: "Altitudes",
     pistes: "Pistes",
@@ -29,6 +30,7 @@ const translations = {
   },
 
   en: {
+    name: "Interactive map of ski resorts in Switzerland",
     infos: "INFO",
     altitudes: "Altitudes",
     pistes: "Slopes",
@@ -48,6 +50,7 @@ const translations = {
   },
 
   de: {
+    name: "Interaktive Karte der Skigebiete in der Schweiz",
     infos: "INFOS",
     altitudes: "Höhenlagen",
     pistes: "Pisten",
@@ -212,6 +215,7 @@ ${sitUrl}${webcamUrl}${planInteractifUrl}${planPdfUrl}${planUrl}
   const mapDesc = buildDescriptions(lang)
   const newUmap = JSON.parse(JSON.stringify(umap))
 
+  newUmap.properties.name = translations[lang].name
   newUmap.layers.forEach(layer => {
     layer.features.forEach(feature => {
       const name = normalize(feature.properties?.name)
