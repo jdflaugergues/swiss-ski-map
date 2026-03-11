@@ -941,8 +941,10 @@
         }
       ],
       "_umap_options": {
+        "heat": {},
         "name": "Alpes Valaisannes",
         "rank": 1,
+        "type": "Cluster",
         "color": "Teal",
         "fields": [
           {
@@ -955,12 +957,22 @@
           }
         ],
         "old_id": 3147642,
+        "circles": {
+          "radius": {}
+        },
+        "cluster": {
+          "radius": 20
+        },
         "iconUrl": "http://umap.openstreetmap.fr/uploads/pictogram/skiing.svg",
         "editMode": "advanced",
         "browsable": true,
         "iconClass": "Drop",
         "inCaption": true,
+        "choropleth": {
+          "classes": 8
+        },
         "remoteData": {},
+        "categorized": {},
         "description": "",
         "displayOnLoad": true
       }
@@ -1296,8 +1308,8 @@
             ]
           },
           "properties": {
-            "name": "Obergoms",
-            "description": "**💳 PRICES**\n\n\n**📅 Verified on 11.03.2026**"
+            "name": "Münster-Geschinen",
+            "description": "<div style=\"text-align:center;\"><img src=\"https://www.skilift-muenster-geschinen.ch/templates/skilift-muenster/img/logo.png\" style=\"max-height:100px; max-width:300px; height:auto; width:auto;\"></div>\n\n**Altitudes: 1363m - 1645m**\n**Slopes: 🔵100% | 🔴0% | ⚫0%**\n**Ski lifts: 2**\n**Slopes: 3**\n**Slope length: 3 km**\n\n**💳 PRICES**\n**Adult : 27.- CHF**\n**Child : 20.- CHF**\n\n**🌐 [[https://www.skilift-muenster-geschinen.ch/|Website]]**\n**🎥 [[https://www.goms.ch/en/webcam/webcam-muenster|Webcams]]**\n<div style=\"width:350px; height:auto; display:flex; align-items:center; justify-content:center;\">\n  <a href=\"https://jdflaugergues.github.io/swiss-ski-map/map/munster.jpg\" target=\"_blank\" rel=\"noopener\">\n    <img src=\"https://jdflaugergues.github.io/swiss-ski-map/map/munster.jpg\" style=\"max-width:350px; max-height:500px; width:auto; height:auto; object-fit:contain;\">\n  </a>\n</div>\n**📅 Verified on 11.03.2026**"
           },
           "id": "RDOSo"
         },
@@ -1831,11 +1843,92 @@
             "description": "<div style=\"text-align:center;\"><img src=\"https://www.adelboden-lenk.ch/static/img/logo.svg\" style=\"max-height:100px; max-width:300px; height:auto; width:auto;\"></div>\n\n**ℹ️ INFO [[https://www.skiinfo.fr/oberland-bernois/adelboden/station-de-ski|(via skiinfo.fr)]]**\n**Altitudes: 1068m - 2362m**\n**Slopes: 🔵40% | 🔴52% | ⚫7%**\n**Ski lifts: 55**\n**Slopes: 85**\n**Slope length: 210 km**\n\n**💳 PRICES**\n**Adult : 73.- CHF**\n**Senior : 73.- CHF**\n**Youth : 51.- CHF**\n**Child : 29.- CHF**\n\n**🌐 [[https://www.adelboden-lenk.ch/fr/Experience/Region_de_ski|Website]]**\n**🎥 [[https://www.adelboden-lenk.ch/fr/Service/Webcams|Webcams]]**\n**🗺️ [[https://www.infosnow.ch/~apgmontagne/?id=62&tab=map-wi&|Interactive piste map]]**\n**🗺️ [[https://piste-maps.co.uk/Piste-Maps/Switzerland/Adelboden-Lenk-Piste-Map-2020.pdf|Download piste map pdf]]**\n<div style=\"width:350px; height:auto; display:flex; align-items:center; justify-content:center;\">\n  <a href=\"https://cdn.bfldr.com/WIENNW6Q/as/6rsxpjtf2nj7jtnh86hwnbf/Adelboden?auto=webp&width=616&width=1024\" target=\"_blank\" rel=\"noopener\">\n    <img src=\"https://cdn.bfldr.com/WIENNW6Q/as/6rsxpjtf2nj7jtnh86hwnbf/Adelboden?auto=webp&width=616&width=1024\" style=\"max-width:350px; max-height:500px; width:auto; height:auto; object-fit:contain;\">\n  </a>\n</div>\n**📅 Verified on 11.03.2026**"
           },
           "id": "BYWht"
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "coordinates": [
+              8.349051,
+              46.534775
+            ],
+            "type": "Point"
+          },
+          "properties": {
+            "name": "Oberwald",
+            "description": "**ℹ️ INFO [[https://www.skiresort.fr/sejour-ski-a/oberwald-30466/domaines-skiable/|(via skiresort.fr)]]**\n**Altitudes: 1373m - 1404m**\n**Slopes: 🔵100% | 🔴0% | ⚫0%**\n**Ski lifts: 1**\n**Slopes: 1**\n**Slope length: 0.2 km**\n\n**💳 PRICES**\n**Adult : 7.- CHF**\n\n**🌐 [[https://www.goms.ch/fr/poi/piste-de-ski-doberwald|Website]]**\n**🎥 [[https://www.goms.ch/fr/webcam/webcam-oberwald|Webcams]]**\n<div style=\"width:350px; height:auto; display:flex; align-items:center; justify-content:center;\">\n  <a href=\"https://jdflaugergues.github.io/swiss-ski-map/map/oberwald.jpg\" target=\"_blank\" rel=\"noopener\">\n    <img src=\"https://jdflaugergues.github.io/swiss-ski-map/map/oberwald.jpg\" style=\"max-width:350px; max-height:500px; width:auto; height:auto; object-fit:contain;\">\n  </a>\n</div>\n**📅 Verified on 11.03.2026**"
+          },
+          "id": "JnmAz"
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "coordinates": [
+              8.232236,
+              46.462495
+            ],
+            "type": "Point"
+          },
+          "properties": {
+            "name": "Gluringen",
+            "description": "<div style=\"text-align:center;\"><img src=\"https://static.wixstatic.com/media/f54695_a1623552aee14a26afd6b74c5d17f2d2~mv2.jpg/v1/crop/x_555,y_3901,w_9249,h_2514/fill/w_422,h_129,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/f54695_a1623552aee14a26afd6b74c5d17f2d2~mv2.jpg\" style=\"max-height:100px; max-width:300px; height:auto; width:auto;\"></div>\n\n**Altitudes: 1333m - 1445m**\n**Slopes: 🔵100% | 🔴0% | ⚫0%**\n**Ski lifts: 1**\n**Slopes: 1**\n**Slope length: 1.2 km**\n\n**💳 PRICES**\n**Adult : 30.- CHF**\n**Child : 25.- CHF**\n\n**🌐 [[https://www.skilift-gluringen.ch/|Website]]**\n<div style=\"width:350px; height:auto; display:flex; align-items:center; justify-content:center;\">\n  <a href=\"https://jdflaugergues.github.io/swiss-ski-map/map/gluringen.jpg\" target=\"_blank\" rel=\"noopener\">\n    <img src=\"https://jdflaugergues.github.io/swiss-ski-map/map/gluringen.jpg\" style=\"max-width:350px; max-height:500px; width:auto; height:auto; object-fit:contain;\">\n  </a>\n</div>\n**📅 Verified on 11.03.2026**"
+          },
+          "id": "xSQUV"
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "coordinates": [
+              [
+                [
+                  8.311501,
+                  46.591412
+                ],
+                [
+                  8.409691,
+                  46.537357
+                ],
+                [
+                  8.191338,
+                  46.413466
+                ],
+                [
+                  8.140869,
+                  46.440443
+                ],
+                [
+                  8.311501,
+                  46.591412
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          },
+          "properties": {
+            "name": "Goms",
+            "description": "<div style=\"text-align:center;\"><img src=\"https://img.myswitzerland.com/ext/https://static.stnet.ch/wispo/images/272/picture-3087/3087-o.jpg?q=80&c=fill&g=center\" style=\"max-height:100px; max-width:300px; height:auto; width:auto;\"></div>\n\n**ℹ️ INFO [[https://www.bergfex.fr/obergoms/|(via bergfex.fr)]]**\n**Altitudes: 1250m - 1568m**\n**Slopes: 🔵100% | 🔴0% | ⚫0%**\n**Ski lifts: 5**\n**Slopes: 6**\n**Slope length: 4 km**\n\n**💳 PRICES**\n\n**🌐 [[https://www.goms.ch/fr/activites/hiver|Website]]**\n<div style=\"width:350px; height:auto; display:flex; align-items:center; justify-content:center;\">\n  <a href=\"https://cdn.bfldr.com/WIENNW6Q/as/5qwv8mjfnpqt6hf5jgfvpgbh/Obergoms?auto=webp&width=2048\" target=\"_blank\" rel=\"noopener\">\n    <img src=\"https://cdn.bfldr.com/WIENNW6Q/as/5qwv8mjfnpqt6hf5jgfvpgbh/Obergoms?auto=webp&width=2048\" style=\"max-width:350px; max-height:500px; width:auto; height:auto; object-fit:contain;\">\n  </a>\n</div>\n**📅 Verified on 11.03.2026**"
+          },
+          "id": "R2RWT"
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "coordinates": [
+              8.231206,
+              46.461718
+            ],
+            "type": "Point"
+          },
+          "properties": {
+            "name": "Snowpark Goms",
+            "description": "<div style=\"text-align:center;\"><img src=\"https://www.snowpark-goms.ch/-_-/res/0c0fe66c-29f7-4094-840e-c2668b4969a5/images/files/0c0fe66c-29f7-4094-840e-c2668b4969a5/83288d52-3d35-42cd-a31c-6a9ce8ae394c/160-21/b32001d61f93e90aacfd35d766bcd979c48d285a\" style=\"max-height:100px; max-width:300px; height:auto; width:auto;\"></div>\n\n\n**💳 PRICES**\n**Adult : 30.- CHF**\n**Child : 25.- CHF**\n\n**🌐 [[https://www.snowpark-goms.ch/|Website]]**\n<div style=\"width:350px; height:auto; display:flex; align-items:center; justify-content:center;\">\n  <a href=\"https://www.snowpark-goms.ch/-_-/res/0c0fe66c-29f7-4094-840e-c2668b4969a5/images/files/0c0fe66c-29f7-4094-840e-c2668b4969a5/6011d8f9-ea7d-4a54-b355-fddb4c2866fd/624-624/606d008966daed4135cd7ee211764230fb310cb8\" target=\"_blank\" rel=\"noopener\">\n    <img src=\"https://www.snowpark-goms.ch/-_-/res/0c0fe66c-29f7-4094-840e-c2668b4969a5/images/files/0c0fe66c-29f7-4094-840e-c2668b4969a5/6011d8f9-ea7d-4a54-b355-fddb4c2866fd/624-624/606d008966daed4135cd7ee211764230fb310cb8\" style=\"max-width:350px; max-height:500px; width:auto; height:auto; object-fit:contain;\">\n  </a>\n</div>\n**📅 Verified on 11.03.2026**"
+          },
+          "id": "5M6KJ"
         }
       ],
       "_umap_options": {
         "name": "Alpes Bernoises",
         "rank": 4,
+        "type": "Cluster",
         "color": "DarkViolet",
         "fields": [
           {
@@ -1848,6 +1941,9 @@
           }
         ],
         "old_id": 3147636,
+        "cluster": {
+          "radius": 20
+        },
         "iconUrl": "http://umap.openstreetmap.fr/uploads/pictogram/skiing.svg",
         "editMode": "advanced",
         "browsable": true,
@@ -2074,6 +2170,7 @@
       "_umap_options": {
         "name": "Préalpes Appenzelloises",
         "rank": 6,
+        "type": "Cluster",
         "color": "LimeGreen",
         "fields": [
           {
@@ -2086,6 +2183,9 @@
           }
         ],
         "old_id": 3147760,
+        "cluster": {
+          "radius": 20
+        },
         "iconUrl": "http://umap.openstreetmap.fr/uploads/pictogram/skiing.svg",
         "editMode": "advanced",
         "browsable": true,
@@ -2262,7 +2362,7 @@
               "color": "OrangeRed"
             },
             "name": "Dôle - Tuffes",
-            "description": "<div style=\"text-align:center;\"><img src=\"https://www.jurasurleman.com/content/themes/jurasurleman/assets/images/svg/logo/JSL_COUL.png\" style=\"max-height:100px; max-width:300px; height:auto; width:auto;\"></div>\n\n**ℹ️ INFO [[https://www.skiresort.fr/domaine-skiable/la-dole-les-tuffes-jura-sur-leman/|(via skiresort.fr)]]**\n**Altitudes: 1160m - 1678m**\n**Slopes: 🔵62% | 🔴30% | ⚫8%**\n**Ski lifts: 18**\n**Slopes: 26**\n**Slope length: 28.6 km**\n\n**💳 PRICES**\n**Adult : 40.50 CHF**\n**Senior : 30.50 CHF**\n**Child : 30.50 CHF**\n\n{{https://www.seco.admin.ch/seco/fr/home/Standortfoerderung/Tourismuspolitik/Innotour/Gefoerderte_Projekte/2016-bis-2019/magic-pass/_jcr_content/par/image/image.imagespooler.jpg/1554467547295/Magic%20Pass%20Bild.jpg|128}}\n\n**🌐 [[https://www.jurasurleman.com/|Website]]**\n**🎥 [[https://www.jurasurleman.com/informations-pratiques/webcams/|Webcams]]**\n**🗺️ [[https://www.jurasurleman.com/domaine-skiable/plans-ouvertures-des-pistes/|Interactive piste map]]**\n<div style=\"width:350px; height:auto; display:flex; align-items:center; justify-content:center;\">\n  <a href=\"https://jdflaugergues.github.io/swiss-ski-map/map/doletuffes.jpg\" target=\"_blank\" rel=\"noopener\">\n    <img src=\"https://jdflaugergues.github.io/swiss-ski-map/map/doletuffes.jpg\" style=\"max-width:350px; max-height:500px; width:auto; height:auto; object-fit:contain;\">\n  </a>\n</div>\n**📅 Verified on 11.03.2026**"
+            "description": "<div style=\"text-align:center;\"><img src=\"https://www.jurasurleman.com/content/themes/jurasurleman/assets/images/svg/logo/JSL_COUL.png\" style=\"max-height:100px; max-width:300px; height:auto; width:auto;\"></div>\n\n**ℹ️ INFO [[https://www.skiresort.fr/domaine-skiable/la-dole-les-tuffes-jura-sur-leman/|(via skiresort.fr)]]**\n**Altitudes: 1160m - 1678m**\n**Slopes: 🔵62% | 🔴30% | ⚫8%**\n**Ski lifts: 18**\n**Slopes: 26**\n**Slope length: 28.6 km**\n\n**💳 PRICES**\n**Adult : 40.50 EUR**\n**Senior : 30.50 EUR**\n**Child : 30.50 EUR**\n\n{{https://www.seco.admin.ch/seco/fr/home/Standortfoerderung/Tourismuspolitik/Innotour/Gefoerderte_Projekte/2016-bis-2019/magic-pass/_jcr_content/par/image/image.imagespooler.jpg/1554467547295/Magic%20Pass%20Bild.jpg|128}}\n\n**🌐 [[https://www.jurasurleman.com/|Website]]**\n**🎥 [[https://www.jurasurleman.com/informations-pratiques/webcams/|Webcams]]**\n**🗺️ [[https://www.jurasurleman.com/domaine-skiable/plans-ouvertures-des-pistes/|Interactive piste map]]**\n<div style=\"width:350px; height:auto; display:flex; align-items:center; justify-content:center;\">\n  <a href=\"https://jdflaugergues.github.io/swiss-ski-map/map/doletuffes.jpg\" target=\"_blank\" rel=\"noopener\">\n    <img src=\"https://jdflaugergues.github.io/swiss-ski-map/map/doletuffes.jpg\" style=\"max-width:350px; max-height:500px; width:auto; height:auto; object-fit:contain;\">\n  </a>\n</div>\n**📅 Verified on 11.03.2026**"
           },
           "id": "ynaWp"
         },
@@ -2652,7 +2752,7 @@
           },
           "properties": {
             "name": "La Serra",
-            "description": "<div style=\"text-align:center;\"><img src=\"https://www.jurasurleman.com/content/themes/jurasurleman/assets/images/svg/logo/JSL_COUL.png\" style=\"max-height:100px; max-width:300px; height:auto; width:auto;\"></div>\n\n**ℹ️ INFO [[https://www.skiresort.fr/domaine-skiable/la-serra-jura-sur-leman/|(via skiresort.fr)]]**\n**Altitudes: 1180m - 1452m**\n**Slopes: 🔵57% | 🔴29% | ⚫14%**\n**Ski lifts: 4**\n**Slopes: 7**\n**Slope length: 12.6 km**\n\n**💳 PRICES**\n**Adult : 34.50 CHF**\n**Senior : 26.50 CHF**\n**Child : 36.50 CHF**\n\n{{https://www.seco.admin.ch/seco/fr/home/Standortfoerderung/Tourismuspolitik/Innotour/Gefoerderte_Projekte/2016-bis-2019/magic-pass/_jcr_content/par/image/image.imagespooler.jpg/1554467547295/Magic%20Pass%20Bild.jpg|128}}\n\n**🌐 [[https://www.jurasurleman.com/|Website]]**\n**🎥 [[https://www.jurasurleman.com/informations-pratiques/webcams/|Webcams]]**\n**🗺️ [[https://www.jurasurleman.com/domaine-skiable/plans-ouvertures-des-pistes/|Interactive piste map]]**\n<div style=\"width:350px; height:auto; display:flex; align-items:center; justify-content:center;\">\n  <a href=\"https://jdflaugergues.github.io/swiss-ski-map/map/serra.jpg\" target=\"_blank\" rel=\"noopener\">\n    <img src=\"https://jdflaugergues.github.io/swiss-ski-map/map/serra.jpg\" style=\"max-width:350px; max-height:500px; width:auto; height:auto; object-fit:contain;\">\n  </a>\n</div>\n**📅 Verified on 11.03.2026**"
+            "description": "<div style=\"text-align:center;\"><img src=\"https://www.jurasurleman.com/content/themes/jurasurleman/assets/images/svg/logo/JSL_COUL.png\" style=\"max-height:100px; max-width:300px; height:auto; width:auto;\"></div>\n\n**ℹ️ INFO [[https://www.skiresort.fr/domaine-skiable/la-serra-jura-sur-leman/|(via skiresort.fr)]]**\n**Altitudes: 1180m - 1452m**\n**Slopes: 🔵57% | 🔴29% | ⚫14%**\n**Ski lifts: 4**\n**Slopes: 7**\n**Slope length: 12.6 km**\n\n**💳 PRICES**\n**Adult : 34.50 EUR**\n**Senior : 26.50 EUR**\n**Child : 36.50 EUR**\n\n{{https://www.seco.admin.ch/seco/fr/home/Standortfoerderung/Tourismuspolitik/Innotour/Gefoerderte_Projekte/2016-bis-2019/magic-pass/_jcr_content/par/image/image.imagespooler.jpg/1554467547295/Magic%20Pass%20Bild.jpg|128}}\n\n**🌐 [[https://www.jurasurleman.com/|Website]]**\n**🎥 [[https://www.jurasurleman.com/informations-pratiques/webcams/|Webcams]]**\n**🗺️ [[https://www.jurasurleman.com/domaine-skiable/plans-ouvertures-des-pistes/|Interactive piste map]]**\n<div style=\"width:350px; height:auto; display:flex; align-items:center; justify-content:center;\">\n  <a href=\"https://jdflaugergues.github.io/swiss-ski-map/map/serra.jpg\" target=\"_blank\" rel=\"noopener\">\n    <img src=\"https://jdflaugergues.github.io/swiss-ski-map/map/serra.jpg\" style=\"max-width:350px; max-height:500px; width:auto; height:auto; object-fit:contain;\">\n  </a>\n</div>\n**📅 Verified on 11.03.2026**"
           },
           "id": "NqJ4N"
         },
@@ -2690,7 +2790,8 @@
             "type": "Polygon"
           },
           "properties": {
-            "name": "Jura sur Léman"
+            "name": "Jura sur Léman",
+            "description": "<div style=\"text-align:center;\"><img src=\"https://www.jurasurleman.com/content/themes/jurasurleman/assets/images/svg/logo/JSL_COUL.png\" style=\"max-height:100px; max-width:300px; height:auto; width:auto;\"></div>\n\n**ℹ️ INFO [[https://www.bergfex.fr/jura-sur-leman/|(via bergfex.fr)]]**\n**Altitudes: 1160m - 1678m**\n**Slopes: 🔵66% | 🔴23% | ⚫11%**\n**Ski lifts: 22**\n**Slopes: 33**\n**Slope length: 34.4 km**\n\n**💳 PRICES**\n**Adult : 40.50 EUR**\n**Senior : 30.50 EUR**\n**Child : 30.50 EUR**\n\n{{https://www.seco.admin.ch/seco/fr/home/Standortfoerderung/Tourismuspolitik/Innotour/Gefoerderte_Projekte/2016-bis-2019/magic-pass/_jcr_content/par/image/image.imagespooler.jpg/1554467547295/Magic%20Pass%20Bild.jpg|128}}\n\n**🌐 [[https://www.jurasurleman.com/|Website]]**\n**🎥 [[https://www.jurasurleman.com/informations-pratiques/webcams/|Webcams]]**\n**🗺️ [[https://www.jurasurleman.com/domaine-skiable/plans-ouvertures-des-pistes/|Interactive piste map]]**\n<div style=\"width:350px; height:auto; display:flex; align-items:center; justify-content:center;\">\n  <a href=\"https://vcdn.bergfex.at/images/resized/dd/a4fac5cc654a21dd_c52d7d139a6aa5e2.jpg\" target=\"_blank\" rel=\"noopener\">\n    <img src=\"https://vcdn.bergfex.at/images/resized/dd/a4fac5cc654a21dd_c52d7d139a6aa5e2.jpg\" style=\"max-width:350px; max-height:500px; width:auto; height:auto; object-fit:contain;\">\n  </a>\n</div>\n**📅 Verified on 11.03.2026**"
           },
           "id": "ctCo5"
         }
@@ -2698,6 +2799,7 @@
       "_umap_options": {
         "name": "Jura",
         "rank": 7,
+        "type": "Cluster",
         "color": "OrangeRed",
         "fields": [
           {
@@ -2709,6 +2811,9 @@
             "type": "Text"
           }
         ],
+        "cluster": {
+          "radius": 20
+        },
         "iconUrl": "http://umap.openstreetmap.fr/uploads/pictogram/skiing.svg",
         "editMode": "advanced",
         "browsable": true,
@@ -2995,6 +3100,7 @@
       "_umap_options": {
         "name": "Alpes Uranaises",
         "rank": 9,
+        "type": "Cluster",
         "color": "Crimson",
         "fields": [
           {
@@ -3006,6 +3112,9 @@
             "type": "Text"
           }
         ],
+        "cluster": {
+          "radius": 20
+        },
         "iconUrl": "http://umap.openstreetmap.fr/uploads/pictogram/skiing.svg",
         "editMode": "advanced",
         "browsable": true,
@@ -3442,6 +3551,7 @@
       "_umap_options": {
         "name": "Alpes Lépontines",
         "rank": 10,
+        "type": "Cluster",
         "color": "Cyan",
         "fields": [
           {
@@ -3453,6 +3563,9 @@
             "type": "Text"
           }
         ],
+        "cluster": {
+          "radius": 20
+        },
         "iconUrl": "http://umap.openstreetmap.fr/uploads/pictogram/skiing.svg",
         "editMode": "advanced",
         "browsable": true,
@@ -3748,6 +3861,7 @@
       "_umap_options": {
         "name": "Alpes Glaronaises",
         "rank": 12,
+        "type": "Cluster",
         "color": "DarkGoldenRod",
         "fields": [
           {
@@ -3759,6 +3873,9 @@
             "type": "Text"
           }
         ],
+        "cluster": {
+          "radius": 20
+        },
         "iconUrl": "http://umap.openstreetmap.fr/uploads/pictogram/skiing.svg",
         "editMode": "advanced",
         "browsable": true,

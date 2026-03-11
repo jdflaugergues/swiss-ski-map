@@ -88,6 +88,7 @@ const noireIndex = headers.indexOf("PISTE_NOIRE");
 const remonteesIndex = headers.indexOf("REMONTEES");
 const pistesIndex = headers.indexOf("PISTES");
 const kmIndex = headers.indexOf("KM_PISTES");
+const deviseIndex = headers.indexOf("DEVISE");
 const adulteIndex = headers.indexOf("TARIF_ADULTE");
 const seniorIndex = headers.indexOf("TARIF_SENIOR");
 const jeuneIndex = headers.indexOf("TARIF_JEUNE");
@@ -159,6 +160,7 @@ function buildDescriptions(lang) {
     const REMONTEES = cols[remonteesIndex]
     const PISTES = cols[pistesIndex]
     const KM_PISTES = cols[kmIndex]
+    const DEVISE = cols[deviseIndex]
     const TARIF_ADULTE = cols[adulteIndex]
     const TARIF_SENIOR = cols[seniorIndex]
     const TARIF_JEUNE = cols[jeuneIndex]
@@ -183,10 +185,10 @@ function buildDescriptions(lang) {
     const nbPistes = PISTES ? `**${t.pistes}: ${PISTES}**\n` : ""
     const kmPistes = KM_PISTES ? `**${t.km_pistes}: ${KM_PISTES} km**\n` : ""
 
-    const tarifAdulte = TARIF_ADULTE ? `**${t.adulte} : ${formatNumber(TARIF_ADULTE)} CHF**\n` : ""
-    const tarifSenior = TARIF_SENIOR ? `**${t.senior} : ${formatNumber(TARIF_SENIOR)} CHF**\n` : ""
-    const tarifJeune = TARIF_JEUNE ? `**${t.jeune} : ${formatNumber(TARIF_JEUNE)} CHF**\n` : ""
-    const tarifEnfant = TARIF_ENFANT ? `**${t.enfant} : ${formatNumber(TARIF_ENFANT)} CHF**\n` : ""
+    const tarifAdulte = TARIF_ADULTE ? `**${t.adulte} : ${formatNumber(TARIF_ADULTE)} ${DEVISE}**\n` : ""
+    const tarifSenior = TARIF_SENIOR ? `**${t.senior} : ${formatNumber(TARIF_SENIOR)} ${DEVISE}**\n` : ""
+    const tarifJeune = TARIF_JEUNE ? `**${t.jeune} : ${formatNumber(TARIF_JEUNE)} ${DEVISE}**\n` : ""
+    const tarifEnfant = TARIF_ENFANT ? `**${t.enfant} : ${formatNumber(TARIF_ENFANT)} ${DEVISE}**\n` : ""
 
     const sitUrl = SITE_URL ? `**🌐 [[${SITE_URL}|${t.site}]]**\n` : ""
     const webcamUrl = WEBCAM_URL ? `**🎥 [[${WEBCAM_URL}|${t.webcams}]]**\n` : ""
