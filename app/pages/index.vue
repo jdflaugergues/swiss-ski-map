@@ -1,4 +1,12 @@
 <template>
+  <!-- Alternate language links for SEO -->
+  <Head>
+    <Link rel="alternate" hreflang="fr" href="https://jdflaugergues.github.io/swiss-ski-map/fr/" />
+    <Link rel="alternate" hreflang="de" href="https://jdflaugergues.github.io/swiss-ski-map/de/" />
+    <Link rel="alternate" hreflang="en" href="https://jdflaugergues.github.io/swiss-ski-map/en/" />
+    <Link rel="alternate" hreflang="x-default" href="https://jdflaugergues.github.io/swiss-ski-map/fr/" />
+  </Head>
+
   <main class="flex-1 bg-gradient-to-b from-blue-50 to-white text-blue-900 relative">
     <!-- Snow effect background -->
     <SnowEffect />
@@ -12,13 +20,6 @@
       <p class="text-base sm:text-lg text-blue-800/80 max-w-2xl leading-relaxed">
         {{ mapConfig.description }}
       </p>
-    </section>
-
-    <!-- Map section title -->
-    <section class="max-w-6xl mx-auto px-4 pb-4 sm:px-6 lg:px-8">
-      <h2 class="text-xl sm:text-2xl font-semibold">
-        {{ t('home.interactiveMap') }}
-      </h2>
     </section>
 
     <!-- Map instructions -->
@@ -68,19 +69,50 @@
 
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
+import { useRoute } from 'vue-router'
 import { useSkiMapConfig } from '../composables/useSkiMapConfig'
+import { useSEOMeta } from '../composables/useSEOMeta'
 
-const { t } = useI18n()
+const { t, locale } = useI18n()
 const mapConfig = useSkiMapConfig()
+const { getSEOConfig, getStructuredData } = useSEOMeta()
+
+const seoConfig = getSEOConfig()
+const structuredData = getStructuredData(seoConfig)
 
 useHead({
-  title: mapConfig.title,
+  title: seoConfig.title,
   meta: [
-    { name: 'description', content: mapConfig.description },
-    { name: 'robots', content: 'index, follow' },
+    { charset: 'utf-8' },
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    { httpEquiv: 'X-UA-Compatible', content: 'IE=edge' },
+    { name: 'description', content: seoConfig.description },
+    { name: 'keywords', content: seoConfig.keywords },
+    { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' },
     { name: 'google-site-verification', content: '7Y_dKD-WwnPAkp_eSYWCEOX5k8PcQx4luoWFV1b89eI' },
-    { property: 'og:title', content: mapConfig.title },
-    { property: 'og:description', content: mapConfig.description },
+    { name: 'theme-color', content: '#1e40af' },
+    { name: 'author', content: 'Swiss Ski Map' },
+    { name: 'revisit-after', content: '7 days' },
+    // Open Graph
+    { property: 'og:title', content: seoConfig.title },
+    { property: 'og:description', content: seoConfig.description },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:url', content: seoConfig.ogUrl },
+    { property: 'og:locale', content: locale.value === 'de' ? 'de_DE' : locale.value === 'en' ? 'en_US' : 'fr_FR' },
+    { property: 'og:site_name', content: 'Swiss Ski Map' },
+    // Twitter Card
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: seoConfig.title },
+    { name: 'twitter:description', content: seoConfig.description },
   ],
+  link: [
+    { rel: 'canonical', href: seoConfig.ogUrl },
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify(structuredData),
+    }
+  ]
 })
 </script>

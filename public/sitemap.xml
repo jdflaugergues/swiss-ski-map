@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- French version -->
+  <url>
+    <loc>https://jdflaugergues.github.io/swiss-ski-map/fr/</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jdflaugergues.github.io/swiss-ski-map/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jdflaugergues.github.io/swiss-ski-map/en/"/>
+  </url>
+
+  <!-- German version -->
+  <url>
+    <loc>https://jdflaugergues.github.io/swiss-ski-map/de/</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jdflaugergues.github.io/swiss-ski-map/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jdflaugergues.github.io/swiss-ski-map/en/"/>
+  </url>
+
+  <!-- English version -->
+  <url>
+    <loc>https://jdflaugergues.github.io/swiss-ski-map/en/</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jdflaugergues.github.io/swiss-ski-map/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jdflaugergues.github.io/swiss-ski-map/de/"/>
+  </url>
+</urlset>
+

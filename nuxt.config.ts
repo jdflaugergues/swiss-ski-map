@@ -9,6 +9,12 @@ export default defineNuxtConfig({
     head: {
       link: [
         { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }
+      ],
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { httpEquiv: 'X-UA-Compatible', content: 'IE=edge' },
+        { name: 'theme-color', content: '#1e40af' },
       ]
     }
   },

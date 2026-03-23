@@ -1,2 +1,12 @@
 User-Agent: *
-Disallow:
+Allow: /swiss-ski-map/
+
+# Sitemaps
+Sitemap: https://jdflaugergues.github.io/swiss-ski-map/sitemap.xml
+
+# Specific rules for major bots
+User-Agent: Googlebot
+Allow: /
+
+User-Agent: Bingbot
+Allow: /
