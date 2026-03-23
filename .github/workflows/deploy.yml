@@ -1,4 +1,4 @@
-name: Deploy Vue to GitHub Pages
+name: Deploy Nuxt to GitHub Pages
 
 on:
   push:
@@ -23,11 +23,11 @@ jobs:
           cache: npm
 
       - run: npm install
-      - run: npm run build
+      - run: npm run generate
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: .output/public
 
   deploy:
     needs: build
