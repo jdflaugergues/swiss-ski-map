@@ -8,6 +8,6 @@
 </template>
 
 <script setup lang="ts">
-import { SSMFooter } from '#components'
-import { SSMHeader } from '#components'
+import {SSMFooter} from "#components"
+import {SSMHeader} from "#components"
 </script>
