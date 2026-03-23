@@ -1,0 +1,14 @@
+{
+  "home": {
+    "title": "Carte des stations de ski en Suisse",
+    "sectionTitle": "Présentation de la carte",
+    "description": "Découvrez toutes les stations de ski en Suisse grâce à notre carte interactive. Explorez les domaines skiables, comparez les régions et préparez votre séjour.",
+    "interactiveMap": "Carte interactive",
+    "showFullScreen": "Voir en plein écran",
+    "mapLoadError": "La carte n'a pas pu se charger. Veuillez réessayer ou consulter la version complète.",
+    "openInNewTab": "Ouvrir dans un nouvel onglet",
+    "retry": "Réessayer",
+    "mapInstructionsTitle": "Comment utiliser la carte",
+    "mapInstructions": "Utilisez les boutons de filtrage sur la carte pour afficher uniquement les stations avec Magic Pass, filtrer par domaine skiable ou par prix. Cliquez sur l'icône de filtres à gauche de la carte pour accéder aux options."
+  }
+}

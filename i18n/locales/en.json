@@ -1,0 +1,13 @@
+{
+  "home": {
+    "title": "Ski Resorts Map in Switzerland",
+    "sectionTitle": "Map Overview",
+    "description": "Discover all ski resorts in Switzerland with our interactive map. Explore the ski areas, compare regions, and plan your trip.",
+    "interactiveMap": "Interactive Map",
+    "showFullScreen": "View Fullscreen",
+    "mapLoadError": "The map could not be loaded. Please try again or view the full version.",
+    "openInNewTab": "Open in New Tab",
+    "mapInstructionsTitle": "How to use the map",
+    "mapInstructions": "Use the filter buttons on the map to display only Magic Pass stations, filter by ski area or by price. Click on the filter icon on the left side of the map to access the options."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "home": {
+    "title": "Skigebiete-Karte in der Schweiz",
+    "sectionTitle": "Kartenübersicht",
+    "description": "Entdecken Sie alle Skigebiete in der Schweiz mit unserer interaktiven Karte. Erkunden Sie die Skigebiete, vergleichen Sie Regionen und planen Sie Ihren Aufenthalt.",
+    "interactiveMap": "Interaktive Karte",
+    "showFullScreen": "Vollbild anzeigen",
+    "mapLoadError": "Die Karte konnte nicht geladen werden. Bitte versuchen Sie es erneut oder öffnen Sie die Vollversion.",
+    "openInNewTab": "In neuem Tab öffnen",
+    "retry": "Erneut versuchen",
+    "mapInstructionsTitle": "Wie man die Karte verwendet",
+    "mapInstructions": "Verwenden Sie die Filter-Schaltflächen auf der Karte, um nur Magic Pass-Stationen anzuzeigen, nach Skigebiet oder nach Preis zu filtern. Klicken Sie auf das Filtersymbol links auf der Karte, um auf die Optionen zuzugreifen."
+  }
+}
