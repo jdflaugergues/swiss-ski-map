@@ -14,14 +14,16 @@
     "lint:oxlint": "oxlint . --fix",
     "lint:eslint": "eslint . --fix --cache",
     "format": "prettier --write --experimental-cli src/",
-    "generate-umap": "node ./scripts/generate-umap.js"
+    "generate-umap": "node ./scripts/generate-umap.js",
+    "generate-umap:yaml": "node ./scripts/generate-umap-yaml.js"
   },
   "dependencies": {
     "@nuxtjs/i18n": "^10.2.3",
     "@tailwindcss/vite": "^4.2.2",
     "nuxt": "^4.4.2",
     "vue": "^3.5.30",
-    "vue-router": "^5.0.3"
+    "vue-router": "^5.0.3",
+    "yaml": "^2.8.3"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.27",
